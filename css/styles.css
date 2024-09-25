@@ -509,7 +509,8 @@
 
 
     .hero-section{
-        height: 80vw;
+        height: 60vh;
+        width: 100%;
     }
 
     .hero-text{
@@ -538,6 +539,25 @@
         height: 40px;
     }
 
+    .section-2{
+        height: fit-content;
+    }
+
+    .section2-container{
+        width: 50%;
+        height: 280px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s2-heading{
+        font-size: 16px;
+    }
+
+    .s2-text{
+        font-size: 12px;
+    }
+
     .section-3{
         flex-direction: column;
         margin-top: 30px;
@@ -563,8 +583,13 @@
         height: fit-content;
     }
 
+    .s3-container2-blocks{
+        width: 100%;
+        gap: 20px;
+    }
+
     .c2-block{
-        width: 25%;
+        width: 30%;
         height: 100px;
     }
 
@@ -606,5 +631,16 @@
     .stat-item{
         width: 100%;
         text-align: center;
+    }
+
+    .section-7{
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .test{
+        width: 80%;
     }
   }
