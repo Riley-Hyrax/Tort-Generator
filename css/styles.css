@@ -121,7 +121,7 @@
     justify-content: space-evenly;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .section2-container:hover{
@@ -149,9 +149,14 @@
     background-repeat: no-repeat;
 }
 
+.s2-text{
+    width: 80%;
+    text-align: center;
+}
+
 .line-s2{
     width: 50px;
-    height: 3px;
+    height: 2px;
     border-radius: 100px;
     background-color: #0a0a23;
 }
@@ -215,7 +220,7 @@
 }
 
 .c2-block{
-    height: 164px;
+    height: 200px;
     width: 30%;
     background-color: #F9F9F9;
     border-radius: 8px;
@@ -258,7 +263,7 @@
 .cta1-h1 {
     color: white;
     font-size: 34px; /* Adjust as needed */
-    width: 80%;
+    width: 70%;
     text-align: center;
     position: relative; /* Keep it above the background */
     line-height: 1.5;
@@ -428,6 +433,12 @@
     font-size: 40px;
     text-align: center;
     color: #0a0a23;
+    letter-spacing: 2px;
+
+    margin: 0 auto;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 1;
 }
 
 .section-7{
@@ -444,7 +455,6 @@
     width: 25%;
     background-color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -456,15 +466,14 @@
 }
 
 .test:hover{
-    background-color: #0a0a23;
-    color: white;
+    background-color: #0a0a2309;
     cursor: pointer;
     
 }
 
 .test-profile{
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     border-radius: 100px;
     background-color: #0a0a23;
     
@@ -476,10 +485,126 @@
 }
 
 .test-company{
-    font-size: 12px;
+    font-size: 16px;
     
 }
 .test-text{
     font-style: italic;
+    width: 80%;
+    color: rgb(165, 165, 165);
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 14px;
 }
 
+.test-text-top{
+    color: rgb(165, 164, 164);
+    font-size: 18px;
+    letter-spacing: 1.4;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    .hero-section{
+        height: 80vw;
+    }
+
+    .hero-text{
+        width: 80%;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .hero-h1{
+        font-size: 24px;
+        width: 100%;
+        line-height: 1;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .hero-p1{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-button{
+        width: 50%;
+        height: 40px;
+    }
+
+    .section-3{
+        flex-direction: column;
+        margin-top: 30px;
+        height: fit-content;
+        gap: 30px;
+    }
+
+    .section3-container1{
+        width: 80%;
+        height: 400px;
+        background-position: right;
+    }
+
+    .section3-container2{
+        width: 80%;
+        gap: 20px;
+        margin-top: 0;
+        height: fit-content;
+    }
+
+    .section3-h1{
+        font-size: 24px;
+        height: fit-content;
+    }
+
+    .c2-block{
+        width: 25%;
+        height: 100px;
+    }
+
+    .cta1-h1{
+        width: 70%;
+        font-size: 24px;
+    }
+
+    .cta-button1{
+        width: 60%;
+    }
+
+    .section5-div1{
+        height: fit-content;
+        gap: 30px;
+    }
+
+    .section5-div2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .section-6{
+        height: fit-content;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section6-h1{
+        width: 60%;
+        text-align: center;
+    }
+
+    .cta-stats{
+        flex-direction: column;
+        height: fit-content;
+        width: 50%;
+    }
+    .stat-item{
+        width: 100%;
+        text-align: center;
+    }
+  }
