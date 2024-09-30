@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+   
     
    
 
