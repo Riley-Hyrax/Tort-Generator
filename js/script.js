@@ -1,33 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-   
-    
-   
+    const hamburger = document.querySelector('.hamburger-menu');
+    const navItems = document.querySelector('.nav-items');
+    const navbar = document.querySelector('.navbar');
 
-    // Your other scroll event code...
-    window.addEventListener('scroll', function() {
-        var whiteNavbar = document.querySelector('.white-navbar');
-        var blueNavbar = document.querySelector('.blue-navbar');
-        var whiteNavbarBottom = whiteNavbar.getBoundingClientRect().bottom;
-        
-
-        if (whiteNavbarBottom <= 0) {
-            blueNavbar.style.position = 'fixed';
-            blueNavbar.style.top = '0'; // Stick to the top
-            blueNavbar.style.left = '0'; // Full width
-            blueNavbar.style.width = '100%'; // Full width
-            blueNavbar.style.opacity = '1'; // Fully visible
-        } else {
-            blueNavbar.style.position = 'absolute';
-            blueNavbar.style.top = '100px'; // Original top position
-            blueNavbar.style.left = '10%'; // Original left position
-            blueNavbar.style.width = '80%'; // Original width
-            blueNavbar.style.opacity = '1'; // Fully visible
-        }
-
+    hamburger.addEventListener('click', () => {
+        navItems.classList.toggle('active');
 
     });
+    
     
     // Initialize AOS (Animate On Scroll)
     AOS.init({
