@@ -332,6 +332,12 @@
 }
 
 @media only screen and (max-width: 900px){
+
+    .section1-h1{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
     .section-2{
         width: 100%;
         height: auto;

@@ -120,5 +120,13 @@
     .s6-c2{
         width: 100%;
         padding: 20px;
+        gap: 30px;
+    }
+    input{
+        width: 100%;
+    }
+
+    .form-group{
+        width: 100%;
     }
 }
