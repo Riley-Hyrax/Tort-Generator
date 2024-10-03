@@ -121,27 +121,45 @@
     <section class="section-6">
         <div class="s6-c1" style="background-image: url(img/10.jpg);"></div>
         <div class="s6-c2">
-            <div class="contact-block">
-                <i class='fas fa-phone contact-i'></i>
-                <div class="contact-block-inner">
-                    <h3 class="contact-h3">Phone</h3>
-                    <a href="" class="contact-a">123 123 1234</a>
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                <input type="hidden" name="access_key" value="aa6d852d-5e5c-46a8-b5c4-723ccc6f4c01">
+
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name*" required>
                 </div>
-            </div>
-            <div class="contact-block">
-                <i class='fas fa-inbox contact-i'></i>
-                <div class="contact-block-inner">
-                    <h3 class="contact-h3">Email</h3>
-                    <a href="" class="contact-a">hello@tortgenerator.com</a>
+        
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone*" required>
                 </div>
-            </div>
-            <div class="contact-block">
-                <i class='fas fa-location contact-i'></i>
-                <div class="contact-block-inner">
-                    <h3 class="contact-h3">Location</h3>
-                    <p class="contact-a">123 Anywhere Street</p>
+        
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email*" required>
                 </div>
-            </div>
+        
+                <div class="form-group">
+                    <select id="service" name="service" required>
+                        <option value="">Service You're Looking For</option>
+                        <option value="Roundup">Roundup</option>
+                        <option value="Camp-Lejeune">Camp Lejeune</option>
+                        <option value="Taclum">Talcum</option>
+                        <option value="CPAP">CPAP</option>
+                        <option value="Hair-Relaxer">Hair Relaxer</option>
+                        <option value="Paraquat">Paraquat</option>
+                        <option value="Zantac">Zantac</option>
+                        <option value="Asbestos">Asbestos</option>
+                        <option value="Hernia-Mesh">Hernia Mesh</option>
+                        <option value="Opioid">Opioid</option>
+                        <option value="Combat-Earplugs">Combat Earplugs</option>
+                        <option value="Ozempic">Ozempic</option>
+                    </select>
+                </div>
+        
+                <div class="form-group full-width">
+                    <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
+                </div>
+        
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
             
             
         </div>
