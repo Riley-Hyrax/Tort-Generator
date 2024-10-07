@@ -104,7 +104,7 @@
 
 .s3-c1-block{
     width: 150px;
-    height: 100px;
+    height: 150px;
     box-shadow: 0px 4px 4px 0px rgb(185, 184, 184);
     border-bottom: 2px solid #0a0a23;
     font-size: 16px;
@@ -114,6 +114,10 @@
     align-items: center;
     padding: 10px;
     gap: 10px;
+}
+
+.s3-c1-block > img{
+    height: 80px;
 }
 
 .s3-c1-p1{
@@ -284,6 +288,10 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
+}
+
+.s5-content > img{
+    height: 100px;
 }
 
 .s5-h3{
